@@ -1,4 +1,4 @@
-defmodule Problem1 do
+defmodule ProjectEuler.Problem1 do
   @moduledoc """
   If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
@@ -10,10 +10,10 @@ defmodule Problem1 do
 
    ## Examples
 
-      iex> Problem1.solve(10)
+      iex> ProjectEuler.Problem1.solve(10)
       23
 
-      iex> Problem1.solve
+      iex> ProjectEuler.Problem1.solve
       233168
   """
   def solve(limit \\1000) do

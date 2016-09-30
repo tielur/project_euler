@@ -1,2 +1,3 @@
-# project_euler
-Solutions to problems at https://projecteuler.net
+# Project Euler Elixir
+
+Solutions to Project Euler problems in Elixir
