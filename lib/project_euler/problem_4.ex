@@ -18,8 +18,8 @@ defmodule ProjectEuler.Problem4 do
       
   """
   def solve(n) do 
-    l = "1#{1..n-1 |> Enum.map(fn -> 0 end) |> Enum.join}" |>String.to_integer
-    r = "9#{1..n-1 |> Enum.map(fn -> 9 end) |> Enum.join}" |> String.to_integer
+    l = "1#{1..n-1 |> Enum.map(fn(_) -> 0 end) |> Enum.join}" |> String.to_integer
+    r = "9#{1..n-1 |> Enum.map(fn(_) -> 9 end) |> Enum.join}" |> String.to_integer
     l..r
     |> products(l..r)
     |> Enum.filter(&palindrome?/1)
