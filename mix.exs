@@ -1,8 +1,8 @@
-defmodule Problem2.Mixfile do
+defmodule ProjectEuler.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :problem_2,
+    [app: :project_euler,
      version: "0.1.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
